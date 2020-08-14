@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Page</title>
+    <link rel="stylesheet" href="src/css/index.css">
+  </head>
+  <body>
+
+    <div>
+      <form class="order-form" name="orderForm">
+        <div>
+          <div class="address-section container">
+            <div class="billing-add">
+              <h4>Billing Address</h4>
+            </div>
+            <div class="shipping-add">
+              <h4>Shipping Address</h4>
+            </div>
+          </div>
+          <div class="date-section container">
+            <div class="order-date">
+              <h4>Order Date</h4>
+            </div>
+            <div class="expected-date">
+              <h4>Expected Delivery</h4>
+            </div>
+          </div>
+        </div>
+          <div class="products-section">
+            <div>
+              <div class="container product-headings">
+              </div>
+              <div class="products">
+              </div>
+              <button
+                class="btn btn-primary left"
+                id="add-product"
+              >
+                ADD PRODUCT
+              </button>
+            </div>
+            <button
+              class="btn btn-primary right"
+              type="submit"
+            >
+              SAVE
+            </button>
+        </div>
+      </form>
+    </div>
+    <script src="src/utils/helperUtils.js"></script>
+    <script src="src/utils/initialData.js"></script>
+    <script src="src/utils/validators.js"></script>
+    <script src="src/js/index.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+}
+
+.card {
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.error {
+  color: #d12a0b;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.address-section input {
+  box-sizing: border-box;
+  height: 34px;
+  width: 420px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.date-section input {
+  box-sizing: border-box;
+  height: 46px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.product-headings div {
+  font-size: 16px;
+  width: 180px;
+}
+
+.products-section input {
+  box-sizing: border-box;
+  height: 32px;
+  width: 180px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px;
+}
+
+textarea {
+  height: 32px;
+  width: 180px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+.product-headings > div {
+  height: 32px;
+  width: 180px;
+  padding: 8px;
+  margin: 8px;
+  margin-left: 0px;
+}
+
+.btn {
+  height: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #d12a0b;
+  border-color: #d12a0b;
+}
+
+
+
+
+/* helper css */
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
